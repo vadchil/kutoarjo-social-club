@@ -1,0 +1,562 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1784396859.3877172,
+    "ast_hash": "6a8f86ff076ea8ec715f3e547f6dc1ca",
+    "semantic_hash": "6a8f86ff076ea8ec715f3e547f6dc1ca"
+  },
+  "app/Actions/Booking/CreateBooking.php": {
+    "mtime": 1784388329.8908827,
+    "ast_hash": "1f654a10a99413db4e4568428d5c9753",
+    "semantic_hash": "1f654a10a99413db4e4568428d5c9753"
+  },
+  "app/Actions/Booking/ValidateBookingAvailability.php": {
+    "mtime": 1784388139.110099,
+    "ast_hash": "b4842c548cb1f7cccf5375239abc060e",
+    "semantic_hash": "b4842c548cb1f7cccf5375239abc060e"
+  },
+  "app/Actions/CalculateBookingPrice.php": {
+    "mtime": 1784388035.6277833,
+    "ast_hash": "71cf7eed8cd1ec8b533fb0f3cab8d3bf",
+    "semantic_hash": "71cf7eed8cd1ec8b533fb0f3cab8d3bf"
+  },
+  "app/Console/Commands/ExpireBookings.php": {
+    "mtime": 1784388815.4308124,
+    "ast_hash": "294cc6bce49ab678b55938335eb4cd1f",
+    "semantic_hash": "294cc6bce49ab678b55938335eb4cd1f"
+  },
+  "app/Enums/UserRole.php": {
+    "mtime": 1784386899.291178,
+    "ast_hash": "dba8a164d4de90f5580c594134e1d5a4",
+    "semantic_hash": "dba8a164d4de90f5580c594134e1d5a4"
+  },
+  "app/Http/Controllers/AdminBookingController.php": {
+    "mtime": 1784389490.832991,
+    "ast_hash": "1892379e70249babbcd493c92416cc69",
+    "semantic_hash": "1892379e70249babbcd493c92416cc69"
+  },
+  "app/Http/Controllers/AdminCmsController.php": {
+    "mtime": 1784389301.2498205,
+    "ast_hash": "4fc8b289a7aef9b27a58e8440077c699",
+    "semantic_hash": "4fc8b289a7aef9b27a58e8440077c699"
+  },
+  "app/Http/Controllers/Auth/LoginController.php": {
+    "mtime": 1784386928.9187894,
+    "ast_hash": "41fbd72dd103f6babce19b2e85d6106c",
+    "semantic_hash": "41fbd72dd103f6babce19b2e85d6106c"
+  },
+  "app/Http/Controllers/Controller.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "25a307335c0719bc9a91b3f7babd186d",
+    "semantic_hash": "25a307335c0719bc9a91b3f7babd186d"
+  },
+  "app/Http/Controllers/PublicBookingController.php": {
+    "mtime": 1784388712.2180614,
+    "ast_hash": "1756579e9d876ab93134d11781bbf884",
+    "semantic_hash": "1756579e9d876ab93134d11781bbf884"
+  },
+  "app/Http/Controllers/PublicPagesController.php": {
+    "mtime": 1784389251.9978848,
+    "ast_hash": "5e6271cd74831863e53b2dfa80df1621",
+    "semantic_hash": "5e6271cd74831863e53b2dfa80df1621"
+  },
+  "app/Http/Middleware/HandleInertiaRequests.php": {
+    "mtime": 1784387114.3882263,
+    "ast_hash": "50d24b1ec852e879be85494a2e003378",
+    "semantic_hash": "50d24b1ec852e879be85494a2e003378"
+  },
+  "app/Http/Middleware/RequireRole.php": {
+    "mtime": 1784387114.4022272,
+    "ast_hash": "fa38e8ac5aa09fbae165f8e6fb95fda4",
+    "semantic_hash": "fa38e8ac5aa09fbae165f8e6fb95fda4"
+  },
+  "app/Http/Requests/Auth/LoginRequest.php": {
+    "mtime": 1784386916.510206,
+    "ast_hash": "c71a2a4dbf09cbb207e695eec64b9deb",
+    "semantic_hash": "c71a2a4dbf09cbb207e695eec64b9deb"
+  },
+  "app/Http/Requests/StoreBookingRequest.php": {
+    "mtime": 1784389790.518872,
+    "ast_hash": "42d1b8b61a048d9e82e414f545215f26",
+    "semantic_hash": "42d1b8b61a048d9e82e414f545215f26"
+  },
+  "app/Models/BilliardTable.php": {
+    "mtime": 1784387481.6869812,
+    "ast_hash": "dc3f48fb0986447afa6641ef248f1050",
+    "semantic_hash": "dc3f48fb0986447afa6641ef248f1050"
+  },
+  "app/Models/Booking.php": {
+    "mtime": 1784387492.2580585,
+    "ast_hash": "51b2051084b6bbcf6116fd11fe13a4ea",
+    "semantic_hash": "51b2051084b6bbcf6116fd11fe13a4ea"
+  },
+  "app/Models/BookingHistory.php": {
+    "mtime": 1784387497.671273,
+    "ast_hash": "e7ed573935ec0e24b52ad40b6069c36d",
+    "semantic_hash": "e7ed573935ec0e24b52ad40b6069c36d"
+  },
+  "app/Models/BookingPayment.php": {
+    "mtime": 1784387502.4421194,
+    "ast_hash": "26cf53799451d6692fe9f8f0baed7f06",
+    "semantic_hash": "26cf53799451d6692fe9f8f0baed7f06"
+  },
+  "app/Models/Faq.php": {
+    "mtime": 1784387518.81564,
+    "ast_hash": "93f9d962718b21cc5162d78440aa9a74",
+    "semantic_hash": "93f9d962718b21cc5162d78440aa9a74"
+  },
+  "app/Models/Gallery.php": {
+    "mtime": 1784387512.7418613,
+    "ast_hash": "796ec2abb4eed026d5428af2a5a2f741",
+    "semantic_hash": "796ec2abb4eed026d5428af2a5a2f741"
+  },
+  "app/Models/PaymentMethod.php": {
+    "mtime": 1784387486.965764,
+    "ast_hash": "a2f5e089c30e5a72a92fd9edc22c46e5",
+    "semantic_hash": "a2f5e089c30e5a72a92fd9edc22c46e5"
+  },
+  "app/Models/PricingRule.php": {
+    "mtime": 1784387507.6390154,
+    "ast_hash": "9d44bc604bcbbc0cfa5b5ac9ed407558",
+    "semantic_hash": "9d44bc604bcbbc0cfa5b5ac9ed407558"
+  },
+  "app/Models/SiteSetting.php": {
+    "mtime": 1784387523.9334087,
+    "ast_hash": "47ee25a01ff9d98b8122b1ef11f9413d",
+    "semantic_hash": "47ee25a01ff9d98b8122b1ef11f9413d"
+  },
+  "app/Models/User.php": {
+    "mtime": 1784387603.7246997,
+    "ast_hash": "3998a17ef2ef0a61a5e1d3b5807b4755",
+    "semantic_hash": "3998a17ef2ef0a61a5e1d3b5807b4755"
+  },
+  "app/Providers/AppServiceProvider.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "c0094f35cad6bba7636002a62186dae4",
+    "semantic_hash": "c0094f35cad6bba7636002a62186dae4"
+  },
+  "artisan": {
+    "mtime": 1779750712.0,
+    "ast_hash": "e66bb13691f6184c762c196427d8e685",
+    "semantic_hash": "e66bb13691f6184c762c196427d8e685"
+  },
+  "bootstrap/app.php": {
+    "mtime": 1784387114.461228,
+    "ast_hash": "723454ffbd305551c13a48de4ea5cab8",
+    "semantic_hash": "723454ffbd305551c13a48de4ea5cab8"
+  },
+  "bootstrap/providers.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "888c810b5a4720916f07aa05dd2c2dd3",
+    "semantic_hash": "888c810b5a4720916f07aa05dd2c2dd3"
+  },
+  "composer.json": {
+    "mtime": 1784386819.714461,
+    "ast_hash": "0f1f8bde1b436402a978b3b31bcf610d",
+    "semantic_hash": "0f1f8bde1b436402a978b3b31bcf610d"
+  },
+  "config/app.php": {
+    "mtime": 1784389504.844826,
+    "ast_hash": "3c026898e43af5a658ca6d7b77f85368",
+    "semantic_hash": "3c026898e43af5a658ca6d7b77f85368"
+  },
+  "config/auth.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "26354511ab860b301f2a3554bc388b91",
+    "semantic_hash": "26354511ab860b301f2a3554bc388b91"
+  },
+  "config/cache.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "399c7a3b4bca7e3cb9b622828682ab56",
+    "semantic_hash": "399c7a3b4bca7e3cb9b622828682ab56"
+  },
+  "config/database.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "594a01554ab7583541a8fb05a69f935f",
+    "semantic_hash": "594a01554ab7583541a8fb05a69f935f"
+  },
+  "config/filesystems.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "bde1aa1027f0448f17348dbd93f3d7ea",
+    "semantic_hash": "bde1aa1027f0448f17348dbd93f3d7ea"
+  },
+  "config/logging.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "d8255a5c07d3da72c7c9363f0c44bddd",
+    "semantic_hash": "d8255a5c07d3da72c7c9363f0c44bddd"
+  },
+  "config/mail.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "18601a927b48d38337ba2077426a7d60",
+    "semantic_hash": "18601a927b48d38337ba2077426a7d60"
+  },
+  "config/queue.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "f98ce92e7bf51db1fabaf8a30e12fc5a",
+    "semantic_hash": "f98ce92e7bf51db1fabaf8a30e12fc5a"
+  },
+  "config/services.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "534a1b7af7009c373ea4ebfa18823d57",
+    "semantic_hash": "534a1b7af7009c373ea4ebfa18823d57"
+  },
+  "config/session.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "5ea7169252ec3cc7fad471f5cd0d7678",
+    "semantic_hash": "5ea7169252ec3cc7fad471f5cd0d7678"
+  },
+  "database/factories/BilliardTableFactory.php": {
+    "mtime": 1784387603.7417002,
+    "ast_hash": "cc5820c2b16e836377e463e0ffe7e707",
+    "semantic_hash": "cc5820c2b16e836377e463e0ffe7e707"
+  },
+  "database/factories/BookingFactory.php": {
+    "mtime": 1784387603.7666998,
+    "ast_hash": "164ea0b4386509545e41f91647ba0527",
+    "semantic_hash": "164ea0b4386509545e41f91647ba0527"
+  },
+  "database/factories/FaqFactory.php": {
+    "mtime": 1784387603.7806997,
+    "ast_hash": "d2437d508fd89303aa17b3119d161fee",
+    "semantic_hash": "d2437d508fd89303aa17b3119d161fee"
+  },
+  "database/factories/GalleryFactory.php": {
+    "mtime": 1784387603.7947,
+    "ast_hash": "c9b21dfc2bbbe5908930bbed8674788e",
+    "semantic_hash": "c9b21dfc2bbbe5908930bbed8674788e"
+  },
+  "database/factories/PaymentMethodFactory.php": {
+    "mtime": 1784387603.8086998,
+    "ast_hash": "7ae12734848119eda8aa4c98d24e82fb",
+    "semantic_hash": "7ae12734848119eda8aa4c98d24e82fb"
+  },
+  "database/factories/PricingRuleFactory.php": {
+    "mtime": 1784387557.5642939,
+    "ast_hash": "3e6a9fc5d9750f1ca099d4cba0fc6ef1",
+    "semantic_hash": "3e6a9fc5d9750f1ca099d4cba0fc6ef1"
+  },
+  "database/factories/SiteSettingFactory.php": {
+    "mtime": 1784387578.0823429,
+    "ast_hash": "b07fe981223a550d325251b45faea6c0",
+    "semantic_hash": "b07fe981223a550d325251b45faea6c0"
+  },
+  "database/factories/UserFactory.php": {
+    "mtime": 1784387533.417551,
+    "ast_hash": "c51423b1531b946ffa6267f06c68cdad",
+    "semantic_hash": "c51423b1531b946ffa6267f06c68cdad"
+  },
+  "database/migrations/0001_01_01_000000_create_users_table.php": {
+    "mtime": 1784387399.8930507,
+    "ast_hash": "348d9a98f07aa77c218929cf2dae470a",
+    "semantic_hash": "348d9a98f07aa77c218929cf2dae470a"
+  },
+  "database/migrations/0001_01_01_000001_create_cache_table.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "6952fb360e8d8b84e6f47573e4459d48",
+    "semantic_hash": "6952fb360e8d8b84e6f47573e4459d48"
+  },
+  "database/migrations/0001_01_01_000002_create_jobs_table.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "b0603b9fa0a27473971da76bb0c42ee1",
+    "semantic_hash": "b0603b9fa0a27473971da76bb0c42ee1"
+  },
+  "database/migrations/2026_07_18_151008_create_billiard_tables_table.php": {
+    "mtime": 1784387412.7521505,
+    "ast_hash": "ee7a5c7d55fbfffff8ab08a5eee56f4f",
+    "semantic_hash": "ee7a5c7d55fbfffff8ab08a5eee56f4f"
+  },
+  "database/migrations/2026_07_18_151017_create_payment_methods_table.php": {
+    "mtime": 1784387421.4911427,
+    "ast_hash": "675c1d87fd4eb0560230e09a4989ce19",
+    "semantic_hash": "675c1d87fd4eb0560230e09a4989ce19"
+  },
+  "database/migrations/2026_07_18_151024_create_bookings_table.php": {
+    "mtime": 1784387429.304432,
+    "ast_hash": "27b68811b599a320d56800893cc9bb47",
+    "semantic_hash": "27b68811b599a320d56800893cc9bb47"
+  },
+  "database/migrations/2026_07_18_151032_create_booking_histories_table.php": {
+    "mtime": 1784387435.978445,
+    "ast_hash": "3f28ab367be92104e69ad713d869c202",
+    "semantic_hash": "3f28ab367be92104e69ad713d869c202"
+  },
+  "database/migrations/2026_07_18_151039_create_booking_payments_table.php": {
+    "mtime": 1784387442.6159215,
+    "ast_hash": "3318a884fc9bd0457ccb7def7beed079",
+    "semantic_hash": "3318a884fc9bd0457ccb7def7beed079"
+  },
+  "database/migrations/2026_07_18_151045_create_pricing_rules_table.php": {
+    "mtime": 1784387449.2896307,
+    "ast_hash": "7fb8c5ef8a0cb7582736f7cacb9feaf9",
+    "semantic_hash": "7fb8c5ef8a0cb7582736f7cacb9feaf9"
+  },
+  "database/migrations/2026_07_18_151052_create_galleries_table.php": {
+    "mtime": 1784387456.19427,
+    "ast_hash": "054f1072c96428afc72cda4b3d6d9b03",
+    "semantic_hash": "054f1072c96428afc72cda4b3d6d9b03"
+  },
+  "database/migrations/2026_07_18_151059_create_faqs_table.php": {
+    "mtime": 1784387463.7636738,
+    "ast_hash": "89b69f916fc80bded81288803f2a1c54",
+    "semantic_hash": "89b69f916fc80bded81288803f2a1c54"
+  },
+  "database/migrations/2026_07_18_151106_create_site_settings_table.php": {
+    "mtime": 1784387471.3464632,
+    "ast_hash": "68ee685ed6df2cadc40cf37d70dbfc51",
+    "semantic_hash": "68ee685ed6df2cadc40cf37d70dbfc51"
+  },
+  "database/seeders/DatabaseSeeder.php": {
+    "mtime": 1784387586.220786,
+    "ast_hash": "824b46b5a6cb22b922995cb99d882aca",
+    "semantic_hash": "824b46b5a6cb22b922995cb99d882aca"
+  },
+  "package.json": {
+    "mtime": 1784386846.8707776,
+    "ast_hash": "512e9a56b438782226691f741ab37eb6",
+    "semantic_hash": "512e9a56b438782226691f741ab37eb6"
+  },
+  "public/index.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "d8eda274115af5fd2aaa8230af329ef7",
+    "semantic_hash": "d8eda274115af5fd2aaa8230af329ef7"
+  },
+  "resources/js/app.tsx": {
+    "mtime": 1784387005.8971293,
+    "ast_hash": "0ae609d4c25b78c831a36cf8a2185799",
+    "semantic_hash": "0ae609d4c25b78c831a36cf8a2185799"
+  },
+  "resources/js/components/ui.tsx": {
+    "mtime": 1784393703.7314928,
+    "ast_hash": "57b5c202bbe1fd4b314b5910b7278456",
+    "semantic_hash": "57b5c202bbe1fd4b314b5910b7278456"
+  },
+  "resources/js/layouts/AdminLayout.tsx": {
+    "mtime": 1784393751.6722405,
+    "ast_hash": "a7d7eed6da81163886e609c5721b8698",
+    "semantic_hash": "a7d7eed6da81163886e609c5721b8698"
+  },
+  "resources/js/layouts/PublicLayout.tsx": {
+    "mtime": 1784393726.763842,
+    "ast_hash": "a2f2bbef905f0965745b1e983e130c8c",
+    "semantic_hash": "a2f2bbef905f0965745b1e983e130c8c"
+  },
+  "resources/js/pages/Admin/Bookings/Index.tsx": {
+    "mtime": 1784388668.6894484,
+    "ast_hash": "7d5cb7985d56d0ec6b5a5d145ffea75e",
+    "semantic_hash": "7d5cb7985d56d0ec6b5a5d145ffea75e"
+  },
+  "resources/js/pages/Admin/Cms/Faq.tsx": {
+    "mtime": 1784389462.8196614,
+    "ast_hash": "e5f8dcfd82aea98533e57be10f2948d7",
+    "semantic_hash": "e5f8dcfd82aea98533e57be10f2948d7"
+  },
+  "resources/js/pages/Admin/Cms/Gallery.tsx": {
+    "mtime": 1784389461.795751,
+    "ast_hash": "9d725f0715af00eae0eaca446e05a472",
+    "semantic_hash": "9d725f0715af00eae0eaca446e05a472"
+  },
+  "resources/js/pages/Admin/Cms/Settings.tsx": {
+    "mtime": 1784389463.8489587,
+    "ast_hash": "9fcab7578e4147661d434acce996f6e9",
+    "semantic_hash": "9fcab7578e4147661d434acce996f6e9"
+  },
+  "resources/js/pages/Admin/Schedule.tsx": {
+    "mtime": 1784388673.3657737,
+    "ast_hash": "db5c682888b6edd011c17b8fc3dda8b9",
+    "semantic_hash": "db5c682888b6edd011c17b8fc3dda8b9"
+  },
+  "resources/js/pages/Auth/Login.tsx": {
+    "mtime": 1784386965.690235,
+    "ast_hash": "0467f72189e0a1c06a9fe683eca7b431",
+    "semantic_hash": "0467f72189e0a1c06a9fe683eca7b431"
+  },
+  "resources/js/pages/Dashboard.tsx": {
+    "mtime": 1784386973.7216957,
+    "ast_hash": "db3c392c17535457296f25a5fa79b62a",
+    "semantic_hash": "db3c392c17535457296f25a5fa79b62a"
+  },
+  "resources/js/pages/Public/Billiard.tsx": {
+    "mtime": 1784389372.5383682,
+    "ast_hash": "e35a517c358702a0a4d962a1ceeedf62",
+    "semantic_hash": "e35a517c358702a0a4d962a1ceeedf62"
+  },
+  "resources/js/pages/Public/Booking.tsx": {
+    "mtime": 1784388649.3232968,
+    "ast_hash": "8c0749128edc0a2cbea42f97691206ab",
+    "semantic_hash": "8c0749128edc0a2cbea42f97691206ab"
+  },
+  "resources/js/pages/Public/BookingLookup.tsx": {
+    "mtime": 1784388658.4843202,
+    "ast_hash": "13fa397ac7a1b9930751f1a25f66dc2b",
+    "semantic_hash": "13fa397ac7a1b9930751f1a25f66dc2b"
+  },
+  "resources/js/pages/Public/BookingStatus.tsx": {
+    "mtime": 1784388662.9228466,
+    "ast_hash": "a41e649cddaeecc5bd7fce09490d2c64",
+    "semantic_hash": "a41e649cddaeecc5bd7fce09490d2c64"
+  },
+  "resources/js/pages/Public/BookingSuccess.tsx": {
+    "mtime": 1784388654.4428043,
+    "ast_hash": "ff1fa8e2413e64920f0343780f78a0a3",
+    "semantic_hash": "ff1fa8e2413e64920f0343780f78a0a3"
+  },
+  "resources/js/pages/Public/Contact.tsx": {
+    "mtime": 1784389375.6224391,
+    "ast_hash": "8e8a31ae603e9a3dbe0c94c25ab28a76",
+    "semantic_hash": "8e8a31ae603e9a3dbe0c94c25ab28a76"
+  },
+  "resources/js/pages/Public/FAQ.tsx": {
+    "mtime": 1784389374.594842,
+    "ast_hash": "fcecc8f298e2feac8ff8cb464e840dff",
+    "semantic_hash": "fcecc8f298e2feac8ff8cb464e840dff"
+  },
+  "resources/js/pages/Public/Gallery.tsx": {
+    "mtime": 1784389373.5664895,
+    "ast_hash": "e0a3e742bb408e6f2426d7ff009c485d",
+    "semantic_hash": "e0a3e742bb408e6f2426d7ff009c485d"
+  },
+  "resources/js/pages/Public/Home.tsx": {
+    "mtime": 1784393806.7481992,
+    "ast_hash": "4528d715a5b680c0ee0feff038c3eed0",
+    "semantic_hash": "4528d715a5b680c0ee0feff038c3eed0"
+  },
+  "resources/js/pages/Public/Padel.tsx": {
+    "mtime": 1784393807.7845104,
+    "ast_hash": "c226177f54254fa8a48612954f039766",
+    "semantic_hash": "c226177f54254fa8a48612954f039766"
+  },
+  "resources/js/types/css.d.ts": {
+    "mtime": 1784387018.9892583,
+    "ast_hash": "1e1144555c89b4997b08627979cd7586",
+    "semantic_hash": "1e1144555c89b4997b08627979cd7586"
+  },
+  "resources/js/types/index.d.ts": {
+    "mtime": 1784389813.6608212,
+    "ast_hash": "93785356c17c0cc66458bf7639a5dee2",
+    "semantic_hash": "93785356c17c0cc66458bf7639a5dee2"
+  },
+  "resources/views/app.blade.php": {
+    "mtime": 1784389778.7868462,
+    "ast_hash": "a0330195d31101c6b00a8f074c6c5c38",
+    "semantic_hash": "a0330195d31101c6b00a8f074c6c5c38"
+  },
+  "resources/views/welcome.blade.php": {
+    "mtime": 1784387126.9618342,
+    "ast_hash": "1b77216a1740fcc2f9bc4e23acfc97f0",
+    "semantic_hash": "1b77216a1740fcc2f9bc4e23acfc97f0"
+  },
+  "routes/console.php": {
+    "mtime": 1784388821.6818151,
+    "ast_hash": "3337829ddb2039e249e44852d3a81320",
+    "semantic_hash": "3337829ddb2039e249e44852d3a81320"
+  },
+  "routes/web.php": {
+    "mtime": 1784389426.5511425,
+    "ast_hash": "6ea3b1cd1c615d30feb6b2ce0de3c4e6",
+    "semantic_hash": "6ea3b1cd1c615d30feb6b2ce0de3c4e6"
+  },
+  "tests/Feature/AuthenticationTest.php": {
+    "mtime": 1784387134.7758665,
+    "ast_hash": "c6c88f26c5e10df571e335042c06a8cb",
+    "semantic_hash": "c6c88f26c5e10df571e335042c06a8cb"
+  },
+  "tests/Feature/Booking/CreateBookingTest.php": {
+    "mtime": 1784388336.3363194,
+    "ast_hash": "6bf59c49931565ed480d3c9f7d729d3e",
+    "semantic_hash": "6bf59c49931565ed480d3c9f7d729d3e"
+  },
+  "tests/Feature/Booking/ExpireBookingsTest.php": {
+    "mtime": 1784388826.0369756,
+    "ast_hash": "86b79dc8b8cebe35479b54a1f13266ad",
+    "semantic_hash": "86b79dc8b8cebe35479b54a1f13266ad"
+  },
+  "tests/Feature/Booking/PublicBookingControllerTest.php": {
+    "mtime": 1784388712.296062,
+    "ast_hash": "a7bf6ed35b12d498e8b21bf165ba62fe",
+    "semantic_hash": "a7bf6ed35b12d498e8b21bf165ba62fe"
+  },
+  "tests/Feature/DatabaseStructureTest.php": {
+    "mtime": 1784387596.856881,
+    "ast_hash": "ed17a1370f2b074dad3904c37284f9f0",
+    "semantic_hash": "ed17a1370f2b074dad3904c37284f9f0"
+  },
+  "tests/Feature/ExampleTest.php": {
+    "mtime": 1784389673.096087,
+    "ast_hash": "fa9172e5faa489bb266042f9d3ea223f",
+    "semantic_hash": "fa9172e5faa489bb266042f9d3ea223f"
+  },
+  "tests/TestCase.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "7e567dc27e68d5b57bae16af07f68907",
+    "semantic_hash": "7e567dc27e68d5b57bae16af07f68907"
+  },
+  "tests/Unit/CalculateBookingPriceTest.php": {
+    "mtime": 1784388035.6907833,
+    "ast_hash": "c32dc146cde1a657902fad2fdd7c3686",
+    "semantic_hash": "c32dc146cde1a657902fad2fdd7c3686"
+  },
+  "tests/Unit/ExampleTest.php": {
+    "mtime": 1779750712.0,
+    "ast_hash": "3f679e9508c834f0ad95943455fcd836",
+    "semantic_hash": "3f679e9508c834f0ad95943455fcd836"
+  },
+  "tests/Unit/ValidateBookingAvailabilityTest.php": {
+    "mtime": 1784388154.914814,
+    "ast_hash": "3184a56ebc5bff22d3d5e457569e702f",
+    "semantic_hash": "3184a56ebc5bff22d3d5e457569e702f"
+  },
+  "tsconfig.json": {
+    "mtime": 1784386987.732091,
+    "ast_hash": "16dc568b74dd0062c8748dec71f77412",
+    "semantic_hash": "16dc568b74dd0062c8748dec71f77412"
+  },
+  "vite.config.js": {
+    "mtime": 1784386857.2359161,
+    "ast_hash": "5817afcad6b8dc3a10983a5852eed453",
+    "semantic_hash": "5817afcad6b8dc3a10983a5852eed453"
+  },
+  "C\uf03aUsersSATSUZY.claudeplanscrystalline-roaming-spring-agent-a5e495afa3bfac534.md": {
+    "mtime": 1784387754.2792315,
+    "ast_hash": "29fdaca80d0faf75fda9a2b0113e4bb6",
+    "semantic_hash": "29fdaca80d0faf75fda9a2b0113e4bb6"
+  },
+  "README.md": {
+    "mtime": 1784389540.9468758,
+    "ast_hash": "aca23c9cd167b53e8f29f2d747887eee",
+    "semantic_hash": "aca23c9cd167b53e8f29f2d747887eee"
+  },
+  "docs/architecture.md": {
+    "mtime": 1784389590.4200025,
+    "ast_hash": "5598795c0071f05e10dd22592af36186",
+    "semantic_hash": "5598795c0071f05e10dd22592af36186"
+  },
+  "docs/assumptions.md": {
+    "mtime": 1784389594.505512,
+    "ast_hash": "b8fd308f95c8fa9259590949d3269b09",
+    "semantic_hash": "b8fd308f95c8fa9259590949d3269b09"
+  },
+  "docs/booking-rules.md": {
+    "mtime": 1784389592.4615319,
+    "ast_hash": "459cf8e3e70aff96c0e43d7060227a4d",
+    "semantic_hash": "459cf8e3e70aff96c0e43d7060227a4d"
+  },
+  "docs/database.md": {
+    "mtime": 1784389591.4464598,
+    "ast_hash": "b50cf6717de063b44a0b3a92a6489ce1",
+    "semantic_hash": "b50cf6717de063b44a0b3a92a6489ce1"
+  },
+  "docs/deployment-cloudpanel.md": {
+    "mtime": 1784389595.5299118,
+    "ast_hash": "14fcbfbfe3ec7d6920aa09660b39f2cc",
+    "semantic_hash": "14fcbfbfe3ec7d6920aa09660b39f2cc"
+  },
+  "docs/testing.md": {
+    "mtime": 1784389593.4895825,
+    "ast_hash": "ad527eaee7e1c8e49080cb079a9c6996",
+    "semantic_hash": "ad527eaee7e1c8e49080cb079a9c6996"
+  },
+  "public/robots.txt": {
+    "mtime": 1779750712.0,
+    "ast_hash": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "semantic_hash": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+  }
+}
