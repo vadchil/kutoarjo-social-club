@@ -19,7 +19,9 @@ export default function BookingSuccess({ booking, whatsapp_url }: BookingSuccess
 
     const timeLabel = `${String(Math.floor(timeLeft / 60)).padStart(2, '0')}:${String(timeLeft % 60).padStart(2, '0')}`;
 
-    return <PublicLayout><Head title="Booking Berhasil" />
+    return <PublicLayout><Head title="Booking Berhasil">
+        <meta name="robots" content="noindex,nofollow" />
+    </Head>
         <section className="ksc-container ksc-page">
             <div className="mx-auto max-w-2xl">
                 <div className="ksc-panel overflow-hidden text-center">

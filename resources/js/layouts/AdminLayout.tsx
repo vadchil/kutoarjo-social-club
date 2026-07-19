@@ -1,5 +1,5 @@
 import React, { ReactNode, useState } from 'react';
-import { Link, usePage } from '@inertiajs/react';
+import { Head, Link, usePage } from '@inertiajs/react';
 import { PageProps } from '@/types';
 
 const navigation = [
@@ -17,6 +17,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
     const [open, setOpen] = useState(false);
 
     return <div className="ksc-admin-shell flex min-h-screen">
+        <Head><meta name="robots" content="noindex,nofollow" /></Head>
         <aside className={`${open ? 'flex' : 'hidden'} fixed inset-y-0 left-0 z-40 w-72 flex-col border-r bg-white p-4 shadow-xl lg:static lg:flex lg:shadow-none`}>
             <div className="flex items-center justify-between px-2 py-2"><Link href="/admin" className="flex items-center gap-3 font-extrabold text-ink"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-700 text-white">KS</span><span>KSC Operations</span></Link><button onClick={() => setOpen(false)} className="inline-flex min-h-10 items-center justify-center rounded-lg px-2 text-sm font-bold text-muted hover:bg-[var(--ksc-surface-raised)] hover:text-ink lg:hidden">Tutup</button></div>
             <nav className="mt-7 space-y-1" aria-label="Navigasi admin">{navigation.filter((item) => auth.user && item.roles.includes(auth.user.role)).map((item) => <Link key={item.href} href={item.href} onClick={() => setOpen(false)} className={`ksc-nav-link ${url === item.href || (item.href !== '/admin' && url.startsWith(item.href)) ? 'ksc-nav-link-active' : ''}`}>{item.label}</Link>)}</nav>

@@ -6,7 +6,9 @@ import { EmptyState } from '@/components/ui';
 interface Item { id: string; title: string; category: string; image_path: string; alt_text: string; }
 
 export default function Gallery({ settings, items }: { settings: Record<string, unknown>; items: Item[] }) {
-    return <PublicLayout settings={settings}><Head title="Galeri" />
+    return <PublicLayout settings={settings}><Head title="Galeri">
+        <meta name="description" content="Lihat galeri Kutoarjo Social Club: venue, aktivitas padel, billiard, dan momen komunitas sebelum datang bermain." />
+    </Head>
         <section className="ksc-container ksc-page">
             <div className="mb-9 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
                 <div><p className="mb-4 font-bold text-brand-700">Galeri</p><h1 className="ksc-title">Suasana club, sebelum Anda datang.</h1></div>

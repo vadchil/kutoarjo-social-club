@@ -4,7 +4,9 @@ import PublicLayout from '@/layouts/PublicLayout';
 import { formatCurrency } from '@/components/ui';
 
 export default function Billiard({ settings, prices }: { settings: Record<string, unknown>; prices: Record<string, number> }) {
-    return <PublicLayout settings={settings}><Head title="Billiard Kutoarjo" />
+    return <PublicLayout settings={settings}><Head title="Billiard Kutoarjo">
+        <meta name="description" content="Booking meja billiard di Kutoarjo Social Club. Pilih meja, cek jadwal, lihat harga weekday dan weekend, lalu konfirmasi via WhatsApp." />
+    </Head>
         <section className="ksc-container ksc-page ksc-rise">
             <div className="grid gap-10 lg:grid-cols-[1.1fr_.9fr] lg:items-end">
                 <div>

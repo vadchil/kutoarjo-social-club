@@ -7,7 +7,9 @@ export default function Login() {
     const submit = (e: FormEvent) => { e.preventDefault(); post('/admin/login'); };
 
     return <main className="flex min-h-screen items-center justify-center bg-[var(--ksc-bg)] px-4 py-12">
-        <Head title="Login Admin" />
+        <Head title="Login Admin">
+            <meta name="robots" content="noindex,nofollow" />
+        </Head>
         <div className="w-full max-w-md">
             <Link href="/" className="mb-6 flex items-center justify-center gap-3 font-extrabold tracking-[-0.025em] text-ink"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-700 text-sm font-black text-white">KS</span>KSC Operations</Link>
             <form onSubmit={submit} className="ksc-panel space-y-5 p-6 sm:p-8">

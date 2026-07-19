@@ -51,7 +51,10 @@ export default function BookingForm({ tables, paymentMethods, settings }: Bookin
         setStepError(''); setStep((prev) => prev + 1);
     };
 
-    return <PublicLayout><Head title="Booking Billiard" />
+    return <PublicLayout><Head title="Booking Billiard">
+        <meta name="robots" content="noindex,follow" />
+        <meta name="description" content="Booking meja billiard online di Kutoarjo Social Club. Pilih meja, tanggal, jam mulai, durasi, lalu cek ketersediaan sebelum konfirmasi." />
+    </Head>
         <section className="ksc-container ksc-page">
             <div className="mx-auto max-w-3xl">
                 <p className="mb-4 font-bold text-brand-700">Booking billiard</p>

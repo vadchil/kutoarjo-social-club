@@ -25,7 +25,7 @@ export default function PublicLayout({ children, settings = {} }: Props) {
         </header>
         <main id="main-content">{children}</main>
         <footer className="border-t bg-white">
-            <div className="ksc-container flex flex-col gap-5 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between"><div><p className="font-bold text-ink">{name}</p><p className="mt-1">{String(settings.operational_hours || '09.00–24.00 WIB')}</p></div><div className="flex flex-wrap gap-4"><Link href="/contact" className="hover:text-brand-700">Kontak</Link><Link href="/faq" className="hover:text-brand-700">FAQ</Link><Link href="/admin/login" className="hover:text-brand-700">Staff</Link></div></div>
+            <div className="ksc-container flex flex-col gap-5 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between"><div><p className="font-bold text-ink">{name}</p><p className="mt-1">{String(settings.operational_hours || '09.00–24.00 WIB')}</p></div><div className="flex flex-wrap gap-4"><Link href="/contact" className="hover:text-brand-700">Kontak</Link><Link href="/faq" className="hover:text-brand-700">FAQ</Link></div></div>
         </footer>
     </div>;
 }

@@ -7,7 +7,10 @@ export default function BookingLookup({ error }: { error?: string }) {
     const { data, setData, post, processing, errors } = useForm({ booking_code: '', customer_phone: '' });
     const submit = (e: React.FormEvent) => { e.preventDefault(); post('/booking/status'); };
 
-    return <PublicLayout><Head title="Cek Status Booking" />
+    return <PublicLayout><Head title="Cek Status Booking">
+        <meta name="robots" content="noindex,follow" />
+        <meta name="description" content="Cek status booking Kutoarjo Social Club menggunakan kode booking dan nomor WhatsApp pemesan." />
+    </Head>
         <section className="ksc-container ksc-page">
             <div className="mx-auto max-w-xl">
                 <p className="mb-4 font-bold text-brand-700">Status booking</p>

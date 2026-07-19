@@ -11,7 +11,9 @@ export default function BookingStatus({ booking }: BookingStatusProps) {
         ['Nama', booking.customer_name], ['Meja', booking.table_name], ['Tanggal', formatDate(booking.start_at)], ['Waktu', `${formatTime(booking.start_at)}—${formatTime(booking.end_at)} WIB`], ['Durasi', `${booking.duration_hours} jam`], ['Total', formatCurrency(booking.total_price)], ['Pembayaran', booking.payment_method?.name || 'Belum dipilih'],
     ];
 
-    return <PublicLayout><Head title="Status Booking" />
+    return <PublicLayout><Head title="Status Booking">
+        <meta name="robots" content="noindex,nofollow" />
+    </Head>
         <section className="ksc-container ksc-page">
             <div className="mx-auto max-w-2xl">
                 <div className="ksc-panel overflow-hidden">
